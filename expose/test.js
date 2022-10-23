@@ -1,12 +1,12 @@
-/* function sumValues(n1, n2, add){
+function sumValues(n1, n2, add){
     if(add){
-        const result =0;
-        result = n1 + n2;
+        let result =0;
+        result = n1 + n2; 
         console.log('value:' + result);
         } else return;
     console.log('Result: ', result);
 }
-sumValues(10, 10, true); */
+sumValues(10, 10, true);
 
 /* function discountPrices(prices, discount){
     const discounted = [];
@@ -35,7 +35,7 @@ function doSomething(num){
 }
 console.log(modifyArray([1, 2, 3], doSomething)); */
 
-function printNums(){
+/* function printNums(){
     console.log(1);
     setTimeout(function(){console.log(2);}, 1000);
     setTimeout(function(){console.log(3);}, 0);
@@ -46,4 +46,4 @@ function printNums(){
     console.log(4);
     
 }
-printNums();
+printNums(); */
