@@ -39,6 +39,11 @@ function printNums(){
     console.log(1);
     setTimeout(function(){console.log(2);}, 1000);
     setTimeout(function(){console.log(3);}, 0);
+    let i = "1";
+    let j = "2";
+    //turn i and j into numbers
+    console.log(parseInt(i)+ parseInt(j));
     console.log(4);
+    
 }
 printNums();
